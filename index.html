@@ -1,188 +1,46 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Habi — Delete Account</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@600;700&display=swap" rel="stylesheet" />
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background: #0d1a12;
-      color: #e8f0eb;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 24px;
-    }
-
-    .card {
-      background: #1a2e20;
-      border: 1px solid #2e4a38;
-      border-radius: 16px;
-      padding: 40px;
-      max-width: 520px;
-      width: 100%;
-    }
-
-    .logo {
-      font-size: 28px;
-      font-weight: 700;
-      color: #2e9c6a;
-      margin-bottom: 8px;
-    }
-
-    .subtitle {
-      font-size: 13px;
-      color: #6b8f77;
-      margin-bottom: 32px;
-    }
-
-    h1 {
-      font-size: 20px;
-      font-weight: 600;
-      color: #e8f0eb;
-      margin-bottom: 16px;
-    }
-
-    p {
-      font-size: 14px;
-      color: #a8c4b0;
-      line-height: 1.6;
-      margin-bottom: 16px;
-    }
-
-    .info-box {
-      background: #0d1a12;
-      border: 1px solid #2e4a38;
-      border-radius: 10px;
-      padding: 16px;
-      margin-bottom: 24px;
-    }
-
-    .info-box p {
-      margin-bottom: 8px;
-      font-size: 13px;
-    }
-
-    .info-box p:last-child { margin-bottom: 0; }
-
-    .info-box strong { color: #e8f0eb; }
-
-    .steps {
-      list-style: none;
-      margin-bottom: 24px;
-    }
-
-    .steps li {
-      display: flex;
-      gap: 12px;
-      margin-bottom: 12px;
-      font-size: 14px;
-      color: #a8c4b0;
-      line-height: 1.5;
-    }
-
-    .step-num {
-      flex-shrink: 0;
-      width: 24px;
-      height: 24px;
-      background: #2e4a38;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 12px;
-      font-weight: 600;
-      color: #2e9c6a;
-      margin-top: 1px;
-    }
-
-    .email-btn {
-      display: block;
-      width: 100%;
-      padding: 14px 20px;
-      background: #2e9c6a;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 10px;
-      font-size: 15px;
-      font-weight: 600;
-      text-align: center;
-      transition: background 0.15s;
-    }
-
-    .email-btn:hover { background: #259058; }
-
-    .footer {
-      margin-top: 24px;
-      font-size: 12px;
-      color: #4a6b55;
-      text-align: center;
-      line-height: 1.5;
-    }
-
-    .divider {
-      border: none;
-      border-top: 1px solid #2e4a38;
-      margin: 24px 0;
-    }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Habi — Delete your account and data</title>
+<style>
+  body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;max-width:680px;margin:0 auto;padding:24px 16px;line-height:1.55;color:#1b1f1d;background:#fff}
+  h1{font-size:1.6rem;margin:0 0 4px} h2{font-size:1.15rem;margin-top:28px}
+  .muted{color:#5b625e;font-size:.9rem} ol,ul{padding-left:22px} li{margin:6px 0}
+  .box{background:#f3f6f4;border-radius:10px;padding:12px 16px}
+</style>
 </head>
 <body>
-  <div class="card">
-    <div class="logo">Habi</div>
-    <div class="subtitle">Account &amp; Data Deletion</div>
+<h1>Delete your Habi account and data</h1>
+<p class="muted">Habi — Daily Habit Tracker · Published by Habi Studio (Thanh Nguyen Xuan) · Last updated: October 6, 2026</p>
 
-    <h1>Request Account Deletion</h1>
+<h2>Option 1 — Delete in the app (fastest)</h2>
+<ol>
+  <li>Open Habi and sign in.</li>
+  <li>Go to <b>Settings</b> → <b>Delete Account</b>.</li>
+  <li>Confirm. Deletion is permanent and takes effect immediately.</li>
+</ol>
 
-    <p>All your Habi data (habits, activity logs, streaks) is stored <strong>locally on your device</strong>. No account exists on our servers.</p>
+<h2>Option 2 — Request deletion by email</h2>
+<p>If you can't open the app, email <a href="mailto:thanhnguyenxuan970@gmail.com?subject=Delete%20my%20Habi%20account">thanhnguyenxuan970@gmail.com</a> from the Google account you use in Habi, with the subject “Delete my Habi account”. We reply within 48 hours and complete the deletion within 30 days.</p>
 
-    <div class="info-box">
-      <p><strong>Data we hold:</strong></p>
-      <p>• Your Google profile (name, email, avatar) — stored only on your device in secure storage.</p>
-      <p>• All habit and activity data — stored only on your device in a local database.</p>
-      <p>• We do not retain any personal data on our servers.</p>
-    </div>
+<h2>What is deleted</h2>
+<ul>
+  <li>Your habit data on our servers: habits, activity logs, streaks, challenges, achievements, rewards you set, and leaderboard progress.</li>
+  <li>The backup copy of your habit data and its history.</li>
+  <li>Your friend connections and your Habi profile.</li>
+  <li>Data stored on your device (removed when you delete the account in the app, or when you uninstall Habi).</li>
+</ul>
 
-    <h1 style="margin-bottom:12px;">To delete your data</h1>
+<h2>What is kept, and for how long</h2>
+<div class="box">
+<ul>
+  <li><b>Feedback you sent</b> (your message, account email and device details) and your <b>sign-in record</b> (email address and name) are not removed automatically by the in-app deletion. Email us and we will delete them within 30 days.</li>
+  <li><b>Crash reports and screen recordings</b> sent to our crash-reporting provider (Sentry) are deleted automatically within 30 days. They do not include your email address.</li>
+</ul>
+</div>
 
-    <ul class="steps">
-      <li>
-        <span class="step-num">1</span>
-        <span>Open <strong>Settings</strong> on your Android device.</span>
-      </li>
-      <li>
-        <span class="step-num">2</span>
-        <span>Go to <strong>Apps → Habi</strong>.</span>
-      </li>
-      <li>
-        <span class="step-num">3</span>
-        <span>Tap <strong>Storage → Clear Data</strong> — this deletes all local habit data and signs you out.</span>
-      </li>
-      <li>
-        <span class="step-num">4</span>
-        <span>Optionally, <strong>uninstall Habi</strong> to remove all app files.</span>
-      </li>
-    </ul>
-
-    <hr class="divider" />
-
-    <p>Need confirmation or have questions? Email us and we'll respond within 48 hours.</p>
-
-    <a class="email-btn" href="mailto:thanhnguyenxuan970@gmail.com?subject=Delete%20my%20Habi%20account&body=Please%20delete%20my%20Habi%20account%20and%20any%20associated%20data.%0A%0AGoogle%20email%20used%20to%20sign%20in%3A%20">
-      Email Deletion Request
-    </a>
-
-    <div class="footer">
-      Habi · thanhnguyenxuan970@gmail.com<br />
-      We will confirm deletion within 48 hours of your request.
-    </div>
-  </div>
+<p>More details: <a href="https://gist.github.com/thanhnguyenxuan970/1804fb75ef285b58a8df1ed61585013c">Habi Privacy Policy</a>.</p>
 </body>
 </html>
